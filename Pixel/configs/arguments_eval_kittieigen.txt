@@ -1,0 +1,17 @@
+--model_name pixelformer_kittieigen
+--encoder large07
+--dataset kitti
+--input_height 352
+--input_width 1216
+--max_depth 80
+--do_kb_crop
+
+--data_path_eval examples/PixelFormer/models/result_pixelformer_kittieigen/raw
+--gt_path_eval examples/data_depth_selection/depth_selection/kitti/groundtruth_depth
+
+--filenames_file_eval examples/PixelFormer/models/eval_list_kitti.txt
+--min_depth_eval 1e-3
+--max_depth_eval 80
+--garg_crop
+
+--checkpoint_path examples/PixelFormer/pretrained/kitti.pth

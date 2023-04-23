@@ -1,0 +1,14 @@
+--model_name pixelformer_kittieigen
+--encoder large07
+--dataset kitti
+--input_height 352
+--input_width 1216
+--max_depth 80
+--do_kb_crop
+--save_viz
+
+--data_path examples/data_depth_selection/depth_selection/kitti/image
+--filenames_file examples/MIM-Transormer-visak/dataset/filenames/eigen_benchmark/test_list.txt
+
+
+--checkpoint_path examples/PixelFormer/pretrained/kitti.pth
